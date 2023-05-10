@@ -1,27 +1,7 @@
 export default defineAppConfig({
-    docus: {
-      title: 'Docus',
-      description: 'The best place to start your documentation.',
-      image: 'https://user-images.githubusercontent.com/904724/185365452-87b7ca7b-6030-4813-a2db-5e65c785bf88.png',
-      socials: {
-        twitter: 'nuxtstudio',
-        github: 'nuxt-themes/docus'
-      },
-      aside: {
-        level: 0,
-        exclude: []
-      },
-      header: {
-        logo: true
-      },
-      footer: {
-        iconLinks: [
-          {
-            href: 'https://nuxt.com',
-            icon: 'simple-icons:nuxtdotjs'
-          }
-        ]
-      }
-    }
+    title: '居里安',
+    description:
+      '这是一个租凭管理平台，面向个人和企业。支持企业及个人的重要资产管理。',
+    showButton: false
   })
   
